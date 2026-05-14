@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Labubu & Moose Adventure</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="menu">
+  <h1>Labubu & Moose Adventure</h1>
+  <p>Select Your Character</p>
+  <div class="buttons">
+    <button onclick="selectCharacter('labubu')">Labubu</button>
+    <button onclick="selectCharacter('moose')">Moose</button>
+  </div>
+  <p class="instructions">
+    Desktop: Arrow Keys + Space<br>
+    Mobile: Touch buttons
+  </p>
+</div>
+
+<canvas id="game"></canvas>
+
+<div id="mobile-controls">
+  <button id="left">◀</button>
+  <button id="jump">▲</button>
+  <button id="right">▶</button>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
